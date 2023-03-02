@@ -54,7 +54,6 @@ h4 {
     padding-bottom: 0;
     text-transform: capitalize;
     border-bottom: 2px solid #231814;
-    float:left;
 }
 
 nav {
@@ -68,12 +67,13 @@ nav {
 nav a{
     text-decoration: none;
     float: left;
-    width: 200px;
 }
 
 nav ul{
-    padding-left: 0;
+    /* padding-left: 20px; */
+    text-align: center;
     list-style-type: none;
+    text-align: center;
 }
 
 nav a:link{color:#fef6c2;}
@@ -88,6 +88,7 @@ main {
     padding-bottom: 20%;
     display: block;
     background-color: #fef6c2;
+
 }
 
 footer {
@@ -100,10 +101,10 @@ footer {
     padding: 1em;
 }
 
-img {
+/* img {
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 
 main h2,h3,h4,p,div,ul,dl {
     padding-left: 3em;
@@ -138,10 +139,11 @@ main h2,h3,h4,p,div,ul,dl {
 
 #heromugs {
     background-image: url(img/heromugs.jpg);
-    /* height:300px; */
+    height:300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
 
 #heroguitar {
     background-image: url(img/heroguitar.jpg);
