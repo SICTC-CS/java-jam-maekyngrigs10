@@ -52,7 +52,7 @@ tr:nth-of-type(odd){
     }
 
     h2{
-        color:#7F5539;
+        color:#231814;
     }
 
     h3 {
@@ -125,9 +125,13 @@ tr:nth-of-type(odd){
         padding: 1em;
     }
 
-    main h2,h3,h4,p,div,ul,dl {
+    main h2,h3,h4,div,ul,dl {
         padding-left: 2em;
         padding-right: 1em;
+    }
+
+    main p {
+        padding-left: 1em;
     }
 
     .details {
@@ -257,7 +261,7 @@ tr:nth-of-type(odd){
     }
 
     h2{
-        color:#7F5539;
+        color:#231814;
     }
 
     h3 {
@@ -432,7 +436,7 @@ tr:nth-of-type(odd){
     }
 
     h2{
-        color:#7F5539;
+        color:#231814;
     }
 
     h3 {
@@ -503,9 +507,13 @@ tr:nth-of-type(odd){
         padding-right: 10px;
     } */
 
-    main h2,h3,h4,p,div,ul,dl {
+    main h2,h3,h4,div,ul,dl {
         padding-left: 3em;
         padding-right: 2em;
+    }
+
+    main p {
+        padding-left: 1em;
     }
 
 
