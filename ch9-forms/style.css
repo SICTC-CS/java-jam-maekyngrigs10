@@ -147,24 +147,27 @@ tr:nth-of-type(odd){
     
     form {
         display:grid;
-        grid: 5 2;
+        grid-template-columns: 6em 1fr;
         column-gap: 1em;
-        column-width: 1fr 6em;
         padding-left: 1em;
-        width:60%;
+        width:40%;
     }
     
-    form button{
-        grid-column: 2;
-        width:9em;
-    }
-
     input, textarea{
         margin-bottom: 0.5em;
-        margin-left:20px;
-        margin-right: 20px;
+        grid-column: 2;
+        width:1fr;
     }
 
+    form label{
+        grid-column: 1;
+        width:1fr;
+    }
+
+    form button {
+        grid-column: 2;
+        width: 9em;
+    }
     #guitarhero {
         background-image: url(img/heroguitar.jpg);
         background-size: cover;
@@ -336,7 +339,7 @@ tr:nth-of-type(odd){
         width:80%;
     }
 
-    input, textarea{
+    form input,textarea{
         margin-bottom: 0.5em;
         margin-left:20px;
         margin-right: 20px;
@@ -532,16 +535,28 @@ tr:nth-of-type(odd){
     }
     
     form {
-        display:flex;
-        flex-direction: column;
+        display:grid;
+        grid-template-columns: 6em 1fr;
+        column-gap: 1em;
         padding-left: 1em;
-        width:80%;
+        width:40%;
     }
     
     input, textarea{
         margin-bottom: 0.5em;
-        margin-left:20px;
-        margin-right: 20px;
+        grid-column: 2;
+        width:1fr;
+    }
+
+    form label{
+        grid-column: 1;
+        width:1fr;
+    }
+
+
+    form button {
+        grid-column: 2;
+        width: 9em;
     }
 
     #guitarhero {
