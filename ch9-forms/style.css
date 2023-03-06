@@ -13,8 +13,6 @@ tr:nth-of-type(odd){
     background-color: #d2b48c;
 }
 
-
-
 /* tablet layout */
 @media (min-width:600px){
     
@@ -163,6 +161,8 @@ tr:nth-of-type(odd){
 
     input, textarea{
         margin-bottom: 0.5em;
+        margin-left:20px;
+        margin-right: 20px;
     }
 
     #guitarhero {
@@ -327,6 +327,19 @@ tr:nth-of-type(odd){
 
     main ul{
         padding-left: 2em;
+    }
+
+    form {
+        display:flex;
+        flex-direction: column;
+        padding-left: 1em;
+        width:80%;
+    }
+
+    input, textarea{
+        margin-bottom: 0.5em;
+        margin-left:20px;
+        margin-right: 20px;
     }
 
     .details {
@@ -527,6 +540,8 @@ tr:nth-of-type(odd){
     
     input, textarea{
         margin-bottom: 0.5em;
+        margin-left:20px;
+        margin-right: 20px;
     }
 
     #guitarhero {
