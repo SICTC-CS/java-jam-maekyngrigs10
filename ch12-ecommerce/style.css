@@ -19,14 +19,20 @@ audio {
     margin-left: 6em;
 }
 
-.item {
+.items {
     background-color: #faf9f7;
     margin:1em;
     padding: 1em;
     overflow: auto;
+    width: 50%;
 }
 
-.class img {
+
+.items button{
+    justify-self: center;
+}
+
+.items img {
     float: right;
 }
 
